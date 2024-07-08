@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+body {
+  background-color: rgb(71,37,117);
+  background: -moz-linear-gradient(129deg, rgba(28,28,52,1) 0%, rgba(106,71,151,1) 58%, rgba(106,71,151,1) 88%, rgba(100,107,115,1) 94%, rgba(92,128,97,1) 96%, rgba(92,151,71,1) 98%);
+  background: -webkit-linear-gradient(129deg, rgba(28,28,52,1) 0%, rgba(106,71,151,1) 58%, rgba(106,71,151,1) 88%, rgba(100,107,115,1) 94%, rgba(92,128,97,1) 96%, rgba(92,151,71,1) 98%);
+  background: linear-gradient(129deg, rgba(28,28,52,1) 0%, rgba(106,71,151,1) 58%, rgba(106,71,151,1) 88%, rgba(100,107,115,1) 94%, rgba(92,128,97,1) 96%, rgba(92,151,71,1) 98%);
+  background-attachment: fixed;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1c1c34",endColorstr="#5c9747",GradientType=1);
+
+  background-image: url('./assets/bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

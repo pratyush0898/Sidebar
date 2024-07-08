@@ -1,2 +1,2 @@
 # Sidebar
- Morden Sidebar website created in React.js
+ Morden Sidebar created with React.js

@@ -1,0 +1,43 @@
+.sidebar {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  bottom: 20px;
+  border-radius: 8px;
+  background: rgba(1, 1, 1, 0.18);
+  backdrop-filter: blur(10px);
+  transition: width 850ms;
+  overflow: hidden;
+}
+
+.sidebar .inner {
+  margin: 9px;
+}
+
+.open-w {
+  width: 68px;
+}
+
+.close-w {
+  width: 240px;
+}
+
+.icons {
+  margin: 1px 9px auto 9px;
+  place-self: right;
+  place-items: right;
+}
+
+.link {
+  background: rgba(0, 1, 10, 0.4);
+  border-radius: 4px;
+}
+
+.sidebar .inner .icons svg {
+  fill: #f0f8ff;
+  font-size: 24px;
+  height: 32px;
+  width: auto;
+  place-items: center;
+}
